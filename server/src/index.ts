@@ -6,7 +6,7 @@ import helmet from 'helmet';
 import morgan from 'morgan';
 
 // Import routes
-
+import dashboardRoutes from './routes/dashboardRoutes';
 
 // CONFIGURATIONS
 dotenv.config();
@@ -19,7 +19,8 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cors());
 
-// ROUTESport
+// ROUTES
+app.use('/dashboard', dashboardRoutes);
 // SERVER
 const port = process.env.PORT || 3001;
 app.listen(port, () => {
