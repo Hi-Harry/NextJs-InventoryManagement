@@ -1,4 +1,4 @@
-# NextJs-Inventory Management App
+# NextJs-Inventory Management
 
 - **Developed a full-stack Inventory Management Dashboard** using **Next.js** for the frontend and **Node.js** with **Prisma ORM** for the backend, facilitating efficient inventory tracking and management.
 
