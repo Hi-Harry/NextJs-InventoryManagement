@@ -2,9 +2,8 @@ module.exports = {
   apps: [
     {
       name: "NextJs-Inventory-Management", 
-      script: "npm",
-      args: "run dev",
-      interpreter: "none",
+      script: "node_modules/next/dist/bin/next",
+      args: "dev",
       env: {
         NODE_ENV: "development",
         ENV_VAR1: "environment-variable",
