@@ -1,6 +1,6 @@
 module.exports = {
     apps: {
-        name: "inventory-management",
+        name: "NextJs-InventoryManagement",
         scripts: "npm",
         args: "run dev",
         env: {
