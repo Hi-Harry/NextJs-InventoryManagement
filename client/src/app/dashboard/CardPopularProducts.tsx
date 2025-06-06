@@ -1,9 +1,9 @@
 
-import { Product, useGetDashboardMetricsQuery } from "@/state/api";
+import { useGetDashboardMetricsQuery } from "@/state/api";
 import { ShoppingBag } from "lucide-react";
-import React, { useEffect, useState } from "react";
+import React from "react";
 import Rating from "../(components)/Rating";
-import Image from "next/image";
+// import Image from "next/image";
 
 const CardPopularProducts = () => {
   const { data: dashboardMetrics, isLoading } = useGetDashboardMetricsQuery();

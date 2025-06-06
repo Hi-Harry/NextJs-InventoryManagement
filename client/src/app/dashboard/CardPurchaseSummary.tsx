@@ -6,7 +6,7 @@ import { Area, AreaChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'rec
 
 
 const CardPurchaseSummary = () => {
-    const { data, isLoading, isError } = useGetDashboardMetricsQuery();
+    const { data, isLoading } = useGetDashboardMetricsQuery();
     const purchaseData = data?.purchaseSummary || [];
 
     const lastDataPoint = purchaseData[purchaseData.length - 1] || null;
