@@ -1,5 +1,5 @@
 # NextJs-Inventory Management
-This project is deployed on AWS you can use this link to check the project (https://main.d3c853mkaah0qw.amplifyapp.com)
+This project is deployed on AWS Amplify you can use this link to check the project (https://main.d3c853mkaah0qw.amplifyapp.com)
 
 ---
 - **Developed a full-stack Inventory Management Dashboard** using **Next.js** for the frontend and **Node.js** with **Prisma ORM** for the backend, facilitating efficient inventory tracking and management.
