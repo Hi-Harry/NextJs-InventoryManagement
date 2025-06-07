@@ -1,4 +1,3 @@
-
 import { useGetDashboardMetricsQuery } from "@/state/api";
 import { TrendingUp } from "lucide-react";
 import React, { useState } from "react";
@@ -28,7 +27,7 @@ const CardSalesSummary = () => {
 
   const highestValueData = salesData.reduce((acc, curr) => {
     return acc.totalValue > curr.totalValue ? acc : curr;
-  }, salesData[0] || { totalValue: 0, date: "" });
+  }, salesData[0] || {});
 
   const highestValueDate = highestValueData.date
     ? new Date(highestValueData.date).toLocaleDateString("en-US", {
@@ -51,7 +50,7 @@ const CardSalesSummary = () => {
           {/* HEADER */}
           <div>
             <h2 className="text-lg font-semibold mb-2 px-7 pt-5">
-                Sales Summary
+              Sales Summary
             </h2>
             <hr />
           </div>
